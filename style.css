@@ -1,4 +1,4 @@
-.card{
+.card {
     border: 1px solid black;
     margin: 50px;
 }
@@ -9,4 +9,12 @@
 
 .card #xhr-2 {
     background-color: blueviolet;
+}
+
+.card #asc {
+    background-color: salmon;
+}
+
+.card #desc {
+    background-color: sandybrown;
 }

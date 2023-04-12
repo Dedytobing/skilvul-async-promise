@@ -1,24 +1,29 @@
 <html>
-    <head>
-        <title>JS - Promise</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="header">
-            <h1>Hellow World, Lets Learn Promise</h1>
+
+<head>
+    <title>JS - Promise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Hellow World, Lets Learn Promise</h1>
+    </div>
+    <div id="body">
+        <div class="card">
+            <button id="xhr-1">Click to start request XHR 1</button>
+            <button id="reload-1">Reload</button>
+            <pre readonly class="event-log"></pre>
         </div>
-        <div id="body">
-            <div class="card">
-                <button id="xhr-1">Click to start request XHR 1</button>
-                <button id="reload-1">Reload</button>
-                <pre readonly class="event-log"></pre>
-            </div>
-            <div class="card">
-                <button id="xhr-2">Click to start request XHR 2</button>
-                <button id="reload-2">Reload</button>
-                <div id="xhr-2-result"></div>
-            </div>
+        <div class="card">
+            <button id="xhr-2">Click to start request XHR 2</button>
+            <button id="reload-2">Reload</button>
+            <button id="asc">Ascending &#8595;</button>
+            <button id="desc">Descending &#8593;</button>
+            <div id="xhr-2-result"></div>
         </div>
-        <script type="module" src="script.js"></script>
-    </body>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
 </html>
